@@ -42,11 +42,11 @@ public class DrinkCategoryActivity extends AppCompatActivity {
         //Assign the listener to the list view
         listDrinks.setOnItemClickListener(itemClickListener);
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Заполнение меню; элементы (если они есть)
-        // добавляются на панель действий.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Заполнение меню; элементы (если они есть)
+//        // добавляются на панель действий.
+//        getMenuInflater().inflate(R.menu.menu_main, menu);
+//        return super.onCreateOptionsMenu(menu);
+//    }
 }
